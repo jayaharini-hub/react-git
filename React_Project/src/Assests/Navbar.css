@@ -1,0 +1,31 @@
+body{
+  background: #D66D75;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E29587, #D66D75);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E29587, #D66D75); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+  }  
+  .home:hover{
+      background-color: #44A08D;
+  }
+  .image-container {
+      display: inline-block;
+      overflow: hidden;
+    }
+    
+    .hover-image {
+      width: 300px; 
+      height: auto;
+      transition: transform 0.3s ease-in-out; 
+      transform: scale(1);
+    }
+    
+    .hover-image:hover {
+      transform: scale(1.1); 
+    }
+    .img{
+      box-shadow: 10px 10px 10px black;
+      margin: 0%;
+    }
+  
+  
+  /* ------------------------------------------------------------------------------------------ */
