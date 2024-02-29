@@ -1,0 +1,40 @@
+body{
+  margin: 0%;
+}
+  .home:hover{
+      background-color: #44A08D;
+  }
+  .image-container {
+      display: inline-block;
+      overflow: hidden;
+    }
+    .hover-image {
+      width: 300px; 
+      height: auto;
+      transition: transform 0.3s ease-in-out;
+      transform: scale(1);
+
+    }
+    .hover-image:hover {
+      transform: scale(1.1); 
+    }
+    .img{
+      box-shadow: 10px 10px 10px black;
+      margin: 0%;
+    }
+    .app {
+      position: relative;
+    }
+    
+    #background-video {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: -1;
+    }
+  
+  /* ------------------------------------------------------------------------------------------ */
